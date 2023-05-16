@@ -127,7 +127,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--db-navy-blue);
   text-align: var(--bs-body-text-align);
-  background: linear-gradient(#212529 50%, rgb(52, 58, 64) 50%);
+  background-color: var(--bs-dark);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -2908,9 +2908,9 @@ textarea.form-control-lg {
 
 .btn-secondary {
   --bs-btn-color: #fff;
-  --bs-btn-bg: #6c757d;
-  --bs-btn-border-color: #6c757d;
-  --bs-btn-hover-color: #6c757d;
+  --bs-btn-bg: #6d767e37;
+  --bs-btn-border-color: none;
+  --bs-btn-hover-color: #fff;
   --bs-btn-hover-bg: #5c636a;
   --bs-btn-hover-border-color: #565e64;
   --bs-btn-focus-shadow-rgb: 130, 138, 145;
