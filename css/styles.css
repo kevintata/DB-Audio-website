@@ -11,6 +11,16 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 
+ .scale-1{
+  transform: scale(1.5);
+ }
+ .scale-2{
+  transform: scale(2);
+ }
+ .scale-3{
+  transform: scale(3);
+ }
+
  .KFT-logo{
   transform: scale(2.5);
  }
@@ -1136,6 +1146,10 @@ progress {
   .col-md-2 {
     flex: 0 0 auto;
     width: 16.66666667%;
+  }
+  .col-md-20 {
+    flex: 0 0 auto;
+    width: 20%;
   }
   .col-md-3 {
     flex: 0 0 auto;
