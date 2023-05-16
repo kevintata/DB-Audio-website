@@ -127,7 +127,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--db-navy-blue);
   text-align: var(--bs-body-text-align);
-  background-color: var(--bs-secondary);
+  background-color: linear-gradient(#212529 50%, #6c757d 50%);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
